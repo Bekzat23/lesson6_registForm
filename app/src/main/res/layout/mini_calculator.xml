@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="enter number 1"/>
+            android:hint="enter number 1"/>
 
         <EditText
             android:id="@+id/number_2"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="enter number 2" />
+            android:hint="enter number 2" />
 
         <LinearLayout
             android:layout_width="match_parent"
