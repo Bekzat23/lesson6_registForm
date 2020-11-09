@@ -88,7 +88,7 @@
             android:layout_height="45dp"
             android:text="Result: "
             android:textSize="30dp"
-            android:layout_marginTop="55dp"/>
+            android:layout_marginTop="54dp"/>
 
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
