@@ -9,8 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class menu_activity extends AppCompatActivity implements View.OnClickListener {
     Button btnMenu1, btnMenu2, btnMenu3, btnMenu4;
+
     @Override
-    protected void OnCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.active_menu_activity);
 
@@ -25,20 +26,20 @@ public class menu_activity extends AppCompatActivity implements View.OnClickList
     }
 
     @Override
-    public void OnClick(View view){
-        if(view.getId()) == R.id.btnMenu1){
-            Intent menu1 = new Intent(packageContext: this, menu_activity1.class);
+    public void onClick(View view){
+        if(view.getId() == R.id.btnMenu1){
+            Intent menu1 = new Intent(this, menu_activity1.class);
         }
-        else if(view.getId()) == R.id.btnMenu2){
-            Intent menu1 = new Intent(packageContext: this, menu_activity2.class);
+        else if(view.getId() == R.id.btnMenu2){
+            Intent menu1 = new Intent(this, menu_activity2.class);
             startActivity(menu1);
         }
-        else if(view.getId()) == R.id.btnMenu3){
-            Intent menu1 = new Intent(packageContext: this, menu_activity3.class);
+        else if(view.getId() == R.id.btnMenu3){
+            Intent menu1 = new Intent(this, menu_activity3.class);
             startActivity(menu1);
         }
-        else if(view.getId()) == R.id.btnMenu4){
-            Intent menu1 = new Intent(packageContext: this, menu_activity4.class);
+        else if(view.getId() == R.id.btnMenu4){
+            Intent menu1 = new Intent(this, menu_activity4.class);
             startActivity(menu1);
         }
     }

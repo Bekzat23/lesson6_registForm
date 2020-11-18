@@ -11,20 +11,22 @@
     <LinearLayout
         android:layout_width="392dp"
         android:layout_height="116dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnMenu1"
             style="@style/menu_button_style"
             android:background="@drawable/button_rounded"
-            android:text="Menu 1" />
+            android:text="Menu 1"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/btnMenu2"
             style="@style/menu_button_style"
             android:background="@drawable/button_rounded"
-            android:text="Menu 2" />
+            android:text="Menu 2"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
@@ -37,13 +39,14 @@
             android:id="@+id/btnMenu3"
             style="@style/menu_button_style"
             android:background="@drawable/button_rounded"
-            android:text="Menu 3" />
+            android:text="Menu 3"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/btnMenu4"
             style="@style/menu_button_style"
             android:background="@drawable/button_rounded"
-            android:backgroundTint="@color/red"
-            android:text="Menu 4" />
+            android:text="Menu 4"
+            android:textColor="@color/white"/>
     </LinearLayout>
 </LinearLayout>
