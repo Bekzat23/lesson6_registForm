@@ -29,6 +29,7 @@ public class menu_activity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view){
         if(view.getId() == R.id.btnMenu1){
             Intent menu1 = new Intent(this, menu_activity1.class);
+            startActivity(menu1);
         }
         else if(view.getId() == R.id.btnMenu2){
             Intent menu1 = new Intent(this, menu_activity2.class);
