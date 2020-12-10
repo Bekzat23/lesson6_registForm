@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.menu_activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplication.R;
 
 public class menu_activity1 extends AppCompatActivity implements View.OnClickListener {
     Button btnBack;

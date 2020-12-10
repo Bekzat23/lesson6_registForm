@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.menu_activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,13 +7,15 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class menu_activity4 extends AppCompatActivity implements View.OnClickListener {
+import com.example.myapplication.R;
+
+public class menu_activity3 extends AppCompatActivity implements View.OnClickListener {
     Button btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu4_design);
+        setContentView(R.layout.menu3_design);
 
         btnBack = findViewById(R.id.Btn_back);
         btnBack.setOnClickListener(this);
